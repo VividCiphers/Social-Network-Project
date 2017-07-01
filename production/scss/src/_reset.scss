@@ -4,4 +4,10 @@
 body{
   @include margin(0);
   font-family: $helvetica;
+  a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
