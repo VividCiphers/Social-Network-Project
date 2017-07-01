@@ -1,17 +1,25 @@
 # Social Network Project
 ## Vanilla Version
 
+Social Network is a collaborative project handled by [VividCiphers]('https://vividciphers.com') Community.<br />
+**Aim** of this project is to deduce interface and functionality of various Social Networking Sites in existence like **Google Plus**, **Facebook**, **Instagram**, **Twitter** etc. And to create a Social Networking Site of our own.
+
 ### Stacks for Front-End Development
 
-[jQuery]('https://github.com/jquery/jquery')<br />
-[Sass]('http://sass-lang.com/')<br />
-[Bourbon]('https://github.com/thoughtbot/bourbon')<br />
+[jQuery 3.2.1](https://github.com/jquery/jquery)<br />
+[SASS]('http://sass-lang.com)<br />
+[Bourbon - SASS Library]('https://github.com/thoughtbot/bourbon')<br />
 
 ### UX/UI design adoption
 
-[Material Design]('https://material.io/guidelines/')<br />
+[Google's Material Design]('https://material.io/guidelines/')<br />
 
-#### Project Structure
+### Stacks for Back-End Development
+
+[PHP 7]('https://php.net')<br />
+
+
+### Project Structure
 ```
 .
 |

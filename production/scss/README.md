@@ -1,6 +1,6 @@
 # Style Guide
 
-Styling is done using **SASS**, a CSS trans-compiler. **BEM** ideology is been followed.
+Styling is done using **SASS**, a CSS trans-compiler.<br />
 Sass Library **Bourbon** is used.
 
 #### Structure
