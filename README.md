@@ -1,9 +1,9 @@
 # Social Network Project
-## Vanilla Version 
+## Vanilla Version
 
 ### Stacks used in `Front-End`
 
-[jquery]('https://github.com/jquery/jquery')<br>
+[jquery]()<br>
 [sass]()<br />
 [bourbon]()<br />
 
@@ -32,4 +32,3 @@
 |
 |--screenshots             //Sample screenshots for reference
 ```
-
