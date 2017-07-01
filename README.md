@@ -24,8 +24,8 @@
 |  |--index.html
 |  |--index.php
 |  |--css
-|  |  |--main.css          //Compiled from ./production/sass
-|  |--sass
+|  |  |--main.css          //Compiled from ./production/scss
+|  |--scss
 |  |--js
 |  |  |--vendor
 |  |  |--main.js
