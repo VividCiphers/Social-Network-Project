@@ -1,23 +1,24 @@
 # Social Network Project
 ## Vanilla Version
 
-### Stacks for `Front-End`
+### Stacks for Front-End Development
 
-* [jQuery]('https://github.com/jquery/jquery')<br>
-* [Sass]('http://sass-lang.com/')<br />
-* [Bourbon]('https://github.com/thoughtbot/bourbon')<br />
+[jQuery]('https://github.com/jquery/jquery')<br>
+[Sass]('http://sass-lang.com/')<br />
+[Bourbon]('https://github.com/thoughtbot/bourbon')<br />
 
 ### UX/UI design adoption
 
-* [Material Design]('https://material.io/guidelines/')<br />
+[Material Design]('https://material.io/guidelines/')<br />
 
 #### <i class="icon-folder-open"></i> Project Folder Structure
 ```
 .
 |
 |--lib
+|  |--fonts
 |  |--img
-|  |--grids
+|  |--grid
 |  |--README.md
 |
 |--docs
@@ -34,5 +35,5 @@
 |  |  |--vendor
 |  |  |--main.js
 |
-|--screenshots             //Sample screenshots for reference
+|--screenshots
 ```
