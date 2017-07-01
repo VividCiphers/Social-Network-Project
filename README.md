@@ -3,7 +3,9 @@
 Angular based :
 
 https://github.com/VividCiphers/Social-Network-Project/tree/Social-Network---Angular-Version
+
 https://github.com/VividCiphers/Social-Network-Project/tree/angular-develop
+
 https://github.com/VividCiphers/Social-Network-Project/tree/project-setup
 
 Vue based :
