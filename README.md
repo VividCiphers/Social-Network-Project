@@ -11,3 +11,7 @@ https://github.com/VividCiphers/Social-Network-Project/tree/Social-Network---Vue
 React based :
 
 https://github.com/VividCiphers/Social-Network-Project/tree/Social-Network---React-Version
+
+Vanilla Version:
+
+[https://github.com/VividCiphers/Social-Network-Project/tree/Social-Network---Vanilla-Version]
