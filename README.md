@@ -7,7 +7,7 @@ Social Network is a collaborative project handled by [VividCiphers]('https://viv
 ### Stacks for Front-End Development
 
 [jQuery 3.2.1](https://github.com/jquery/jquery)<br />
-[SASS]('http://sass-lang.com)<br />
+[SASS]('http://sass-lang.com')<br />
 [Bourbon - SASS Library]('https://github.com/thoughtbot/bourbon')<br />
 
 ### UX/UI design adoption
