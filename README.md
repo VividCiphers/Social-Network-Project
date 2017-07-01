@@ -3,7 +3,7 @@
 
 ### Stacks for Front-End Development
 
-[jQuery]('https://github.com/jquery/jquery')<br>
+[jQuery]('https://github.com/jquery/jquery')<br />
 [Sass]('http://sass-lang.com/')<br />
 [Bourbon]('https://github.com/thoughtbot/bourbon')<br />
 
@@ -11,7 +11,7 @@
 
 [Material Design]('https://material.io/guidelines/')<br />
 
-#### <i class="icon-folder-open"></i> Project Folder Structure
+#### Project Structure
 ```
 .
 |

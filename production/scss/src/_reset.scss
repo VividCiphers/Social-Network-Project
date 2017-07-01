@@ -1,0 +1,7 @@
+*{
+  @include box-sizing(border-box);
+}
+body{
+  @include margin(0);
+  font-family: $helvetica;
+}
