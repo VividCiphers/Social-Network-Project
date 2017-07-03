@@ -3,7 +3,7 @@
 }
 body{
   @include margin(0);
-  font-family: $helvetica;
+  font-family: "Arial", $helvetica;
   a{
     text-decoration: none;
     &:hover{
