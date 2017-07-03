@@ -26,9 +26,9 @@ For now, we will take **Android** into consideration.
 
 ### Screen Size
 
-For smaller screen, we are taking iPhone 6 screen as the standard(375X667 in px) for potrait.<br />
+For smaller screen, we are taking iPhone 6 screen as the standard(375 x 667 in px) for potrait.<br />
 For landscape, the breakpoint will be added at the screen height of iPhone 6S Plus (736px)
 
 ### Fonts
 
-Arial is the standard font we are going to use in our web app.
+**Arial** is the standard font we are going to use in our web app.
