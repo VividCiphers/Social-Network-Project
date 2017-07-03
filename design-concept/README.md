@@ -13,7 +13,7 @@ over the UX/UI of sites like **Instagram**, **Google Plus** and **Twitter**.<br 
       |--instagram
       |--gplus
       |--twitter
-   |--mockups             //contains mocks for our website
+   |--mockups              //contains mocks for our web-app
 ```
 
 App is targeted to mobile devices with Small and Medium screen, also with Landscape Orientation.
@@ -22,7 +22,8 @@ App is targeted to mobile devices with Small and Medium screen, also with Landsc
 
 We aim at building we app that provide native app experience to the End-User. Our Material Design adoption,
 plus with other study conducted on the native apps will help us do the same.<br />
-For now, we will take **Android** into consideration.
+For now, we will take **Android** into consideration.<br />
+Take a look at `./design-concept/mockups` for the reference.
 
 ### Screen Size
 
