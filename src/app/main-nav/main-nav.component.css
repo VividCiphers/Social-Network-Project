@@ -1,4 +1,5 @@
 .content-container--main-nav {
+  padding: 1rem 0;
   font-size: 1.4rem;
   border-radius: 0;
   border-top: 0;
@@ -6,8 +7,33 @@
   border-right: 0;
 }
 
+.content-container--main-nav--large {
+  font-size: 2rem;
+}
+
+.content-container--main-nav--left-border {
+  border-left: 1px solid #ddd;
+}
+
+.content-container--main-nav__vertical-centered {
+  transform: translateY(19%);
+}
+
 .content-container--main-nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+}
+
+.content-container--main-nav li {
+  padding: 0 1rem;
+  display: inline;
+}
+
+.content-container--main-nav li:first-child {
+  padding-left: 0;
+}
+
+.content-container--main-nav li:last-child {
+  padding-right: 0;
 }

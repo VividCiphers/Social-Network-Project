@@ -2,3 +2,5 @@
 @import "../node_modules/normalize.css/normalize.css";
 @import "assets/styles/base/_global.css";
 @import "assets/styles/modules/_content-container.css";
+@import "assets/styles/modules/_logo-font.css";
+@import "assets/styles/modules/_wrapper.css";
