@@ -1,4 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/normalize.css/normalize.css";
-
 @import "assets/styles/base/_global.css";
+@import "assets/styles/modules/_content-container.css";
