@@ -1,39 +1,116 @@
-.content-container--main-nav {
+.main-nav {
   padding: 1rem 0;
   font-size: 1.4rem;
-  border-radius: 0;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
 }
 
-.content-container--main-nav--large {
+.main-nav--large {
+  display: none;
   font-size: 2rem;
 }
 
-.content-container--main-nav--left-border {
+.main-nav--left-border {
   border-left: 1px solid #ddd;
 }
 
-.content-container--main-nav__vertical-centered {
-  transform: translateY(19%);
+.main-nav--padding-r {
+  padding-right: .4rem;
 }
 
-.content-container--main-nav ul {
+.main-nav--padding-l {
+  padding-left: .4rem;
+}
+
+.main-nav__input {
+  display: none;
+  transform: translateY(10%);
+}
+
+.main-nav__input input[type=text] {
+  outline: 0;
+  text-align: center;
+  font-size: 1rem;
+  color: #212121;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: .4rem 1rem .4rem 1rem;
+}
+
+.main-nav__icon {
+  display: none;
+  transform: translateY(30%);
+}
+
+.main-nav__icon--visible-at-small {
+  position: relative;
+  display: inline-block;
+}
+
+.main-nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
 
-.content-container--main-nav li {
-  padding: 0 1rem;
-  display: inline;
+.main-nav li {
+  display: inline-block;
 }
 
-.content-container--main-nav li:first-child {
-  padding-left: 0;
+.main-nav__dropdown-content {
+  display: none;
+  position: absolute;
+  transform: translateX(-8rem);
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
 }
 
-.content-container--main-nav li:last-child {
-  padding-right: 0;
+.main-nav__dropdown-content a {
+  color: #212121;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.main-nav__dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.main-nav__dropdown-content--show {
+  display:block;
+}
+
+@media screen and (min-width: 530px) {
+  .main-nav--large {
+    display: inline-block;
+  }
+
+  .main-nav__input {
+    display: inline-block;
+  }
+
+  .main-nav__icon {
+    display: inline-block;
+  }
+
+  .main-nav__icon--visible-at-small {
+    display: none;
+  }
+
+  .main-nav__dropdown-content--show {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  .main-nav--padding-r {
+    padding-right: 1rem;
+  }
+
+  .main-nav--padding-l {
+    padding-left: 1rem;
+  }
 }

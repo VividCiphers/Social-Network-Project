@@ -9,6 +9,10 @@ export class MainNavComponent implements OnInit {
 
   constructor() { }
 
+  toggleDropdown() {
+    document.getElementById('main-nav__dropdown').classList.toggle('main-nav__dropdown-content--show');
+  }
+
   ngOnInit() {
   }
 
