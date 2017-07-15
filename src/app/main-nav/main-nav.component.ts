@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, Renderer2, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'main-nav',
@@ -6,14 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-nav.component.css']
 })
 export class MainNavComponent implements OnInit {
+  @ViewChild('mainNavDropDown') mainNavDropDown: ElementRef;
+  private isOpen: Boolean = false;
 
-  constructor() { }
+  constructor(private elementRef: ElementRef, private renderer: Renderer2) { }
 
   toggleDropdown() {
-    document.getElementById('main-nav__dropdown').classList.toggle('main-nav__dropdown-content--show');
+    if (!this.isOpen) {
+      this.renderer.addClass(this.mainNavDropDown.nativeElement, 'main-nav__dropdown-content--show');
+    } else {
+      this.renderer.removeClass(this.mainNavDropDown.nativeElement, 'main-nav__dropdown-content--show');
+    }
+
+    this.isOpen = !this.isOpen;
   }
 
   ngOnInit() {
   }
-
 }
