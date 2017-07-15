@@ -1,0 +1,27 @@
+.tile__image-detail-header {
+    padding: 15px;
+}
+
+.tile__image-detail-header__user-info {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tile__image-detail-header__user-info p {
+    margin: 0;
+    font-size: .9em;
+}
+
+.tile__image-detail-header__user-info p:first-child {
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.tile__image-detail-body__image {
+    width: 598px;
+    height: 600px;
+}
+
+.tile__image-detail-body__comments {
+    height: 200px;
+}

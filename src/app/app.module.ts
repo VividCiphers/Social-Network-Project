@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
+import { HomeFeedComponent } from './home-feed/home-feed.component';
+import { ImageDetailTileComponent } from './home-feed/image-detail-tile/image-detail-tile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainNavComponent
+    MainNavComponent,
+    HomeFeedComponent,
+    ImageDetailTileComponent
   ],
   imports: [
     BrowserModule,
