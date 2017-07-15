@@ -1,14 +1,20 @@
-<nav class="content-container content-container--main-nav">
+<nav class="main-nav">
   <ul class="wrapper">
-    <div class="content-container--main-nav--large">
-      <li><i class="fa fa-camera" aria-hidden="true"></i></li>
-      <li class="logo-font content-container--main-nav--left-border">Social Media</li>
+    <div class="main-nav--large">
+      <li><i class="fa fa-camera main-nav--padding-r" aria-hidden="true"></i></li>
+      <li class="logo-font main-nav--left-border main-nav--padding-l">Social Media</li>
     </div>
-    <li><input class="content-container--main-nav__vertical-centered" type="" name="" value=""></li>
+    <li><form class="main-nav__input"><input type="text" name="search" placeholder="Search"></form></li>
     <div>
-      <li><i class="fa fa-compass content-container--main-nav__vertical-centered" aria-hidden="true"></i></li>
-      <li><i class="fa fa-heart-o content-container--main-nav__vertical-centered" aria-hidden="true"></i></li>
-      <li><i class="fa fa-user-o content-container--main-nav__vertical-centered" aria-hidden="true"></i></li>
+      <li><i class="fa fa-compass main-nav__icon main-nav--padding-r" aria-hidden="true"></i></li>
+      <li><i class="fa fa-heart-o main-nav__icon main-nav--padding-r main-nav--padding-l" aria-hidden="true"></i></li>
+      <li><i class="fa fa-user-o main-nav__icon main-nav--padding-l" aria-hidden="true"></i></li>
+      <li><i class="fa fa-bars main-nav__icon--visible-at-small" (click)="toggleDropdown()" aria-hidden="true"></i></li>
+      <div id="main-nav__dropdown" class="main-nav__dropdown-content shadow" #mainNavDropDown>
+        <a href="#">Compass</a>
+        <a href="#">Heart</a>
+        <a href="#">User</a>
+      </div>
     </div>
   </ul>
 </nav>
