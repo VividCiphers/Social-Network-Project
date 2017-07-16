@@ -1,54 +1,52 @@
-.txt { 
-    border: 1px solid #efefef;
-    
+.txt {
+  border: 1px solid #efefef;
 }
 
 .txt.txt--no-borders {
-    border: none; 
+  border: none;
 }
 
 .txt.txt--top-border {
-    border-top: 1px solid #efefef;
+  border-top: 1px solid #efefef;
 }
 
-.txt.txt--large-padding { 
-    padding: 15px;
+.txt.txt--large-padding {
+  padding: 15px;
 }
 
-.txt.txt--full { 
-    width: 100%;
+.txt.txt--full {
+  width: 100%;
 }
 
 .txt:focus  {
-    outline: none;
-    animation: wave .25s;
+  outline: none;
+  animation: wave .25s;
 }
 
-.txt::-webkit-input-placeholder { 
+.txt::-webkit-input-placeholder {
   color: #C4C4C4;
 }
 .txt::-moz-placeholder {
   color: #C4C4C4;
 }
-.txt::-ms-input-placeholder { 
+.txt::-ms-input-placeholder {
   color: #C4C4C4;
 }
-.txt::-moz-placeholder { 
+.txt::-moz-placeholder {
   color: #C4C4C4;
 }
 .txt::placeholder {
-    color: #C4C4C4
+  color: #C4C4C4
 }
 
 @keyframes wave  {
-    0% {
-        width: 0;
-        background-color: #C4C4C4;
-    }
+  0% {
+    width: 0;
+    background-color: #C4C4C4;
+  }
 
-    100% {
-        width: 100%;
-        background-color: white;
-    }
-
+  100% {
+    width: 100%;
+    background-color: white;
+  }
 }
