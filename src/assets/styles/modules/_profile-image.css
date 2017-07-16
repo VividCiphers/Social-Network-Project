@@ -1,12 +1,12 @@
-.profile-image { 
-    border-radius: 50%;
+.profile-image {
+  border-radius: 50%;
 }
 
-.profile-image.profile-image--large { 
-    width: 150px;
+.profile-image.profile-image--large {
+  width: 150px;
 }
 
 .profile-image.profile-image--small {
-    width: 35px;
-    display: inline-block;
+  width: 35px;
+  display: inline-block;
 }
