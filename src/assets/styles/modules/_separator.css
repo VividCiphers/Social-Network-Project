@@ -1,0 +1,15 @@
+.separator {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #efefef;
+    padding: 0; 
+}
+
+.separator.separator--medium {
+    width: 75%;
+}
+
+.separator.separator--large {
+    width: 95%;
+}

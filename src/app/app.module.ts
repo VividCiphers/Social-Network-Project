@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { HomeFeedComponent } from './home-feed/home-feed.component';
 import { ImageDetailTileComponent } from './home-feed/image-detail-tile/image-detail-tile.component';
+import { CommentComponent } from './home-feed/image-detail-tile/comment/comment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainNavComponent,
     HomeFeedComponent,
-    ImageDetailTileComponent
+    ImageDetailTileComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule,

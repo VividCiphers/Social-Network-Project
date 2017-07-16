@@ -1,0 +1,35 @@
+.txt { 
+    border: 1px solid #efefef;
+}
+
+.txt.txt--no-borders {
+    border: none; 
+}
+
+.txt.txt--top-border {
+    border-top: 1px solid #efefef;
+}
+
+.txt.txt--large-padding { 
+    padding: 15px;
+}
+
+.txt.txt--full { 
+    width: 100%;
+}
+
+.txt::-webkit-input-placeholder { 
+  color: #efefef;
+}
+.txt::-moz-placeholder {
+  color: #efefef;
+}
+.txt::-ms-input-placeholder { 
+  color: #efefef;
+}
+.txt::-moz-placeholder { 
+  color: #efefef;
+}
+.txt::placeholder {
+    color: #efefef
+}
