@@ -5,7 +5,7 @@
 }
 
 .tile.tile--large {
-    min-width: 600px;
+  min-width: 600px;
 }
 
 .tile.tile--gutters {
@@ -29,6 +29,11 @@
 
   .tile.tile--gutters {
     margin-top: 0;
+    border: none;
+  }
+
+  .tile.tile--gutters {
+    margin-top: 20px;
     margin-bottom: 0;
   }
 }
