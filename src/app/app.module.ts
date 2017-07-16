@@ -8,6 +8,8 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { HomeFeedComponent } from './home-feed/home-feed.component';
 import { ImageDetailTileComponent } from './home-feed/image-detail-tile/image-detail-tile.component';
 import { CommentComponent } from './home-feed/image-detail-tile/comment/comment.component';
+import { PersonViewComponent } from './person-view/person-view.component';
+import { PersonViewTileComponent } from './person-view/person-view-tile/person-view-tile.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CommentComponent } from './home-feed/image-detail-tile/comment/comment.
     MainNavComponent,
     HomeFeedComponent,
     ImageDetailTileComponent,
-    CommentComponent
+    CommentComponent,
+    PersonViewComponent,
+    PersonViewTileComponent
   ],
   imports: [
     BrowserModule,

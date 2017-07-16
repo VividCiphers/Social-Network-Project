@@ -1,0 +1,22 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: 0;
+  padding: .5rem .8rem;
+  transition: all .25s;
+}
+
+.btn:hover {
+
+}
+
+.btn--blue {
+  border: 0;
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.btn--blue:hover {
+  background-color: #0c7cd6;
+}

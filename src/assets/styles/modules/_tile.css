@@ -1,4 +1,4 @@
-.tile { 
+.tile {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -13,17 +13,21 @@
   margin-bottom: 50px;
 }
 
+.tile.tile--padding {
+  padding: .5rem 1.2rem;
+}
+
 @media (max-width: 600px) {
   .tile.tile--large {
     width: 100%;
     min-width: 100%;
   }
 
-  .tile { 
+  .tile {
       border: none;
   }
 
-  .tile.tile--gutters { 
+  .tile.tile--gutters {
     margin-top: 0;
     margin-bottom: 0;
   }
