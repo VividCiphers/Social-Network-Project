@@ -1,5 +1,6 @@
 .txt { 
     border: 1px solid #efefef;
+    
 }
 
 .txt.txt--no-borders {
@@ -18,18 +19,36 @@
     width: 100%;
 }
 
+.txt:focus  {
+    outline: none;
+    animation: wave .25s;
+}
+
 .txt::-webkit-input-placeholder { 
-  color: #efefef;
+  color: #C4C4C4;
 }
 .txt::-moz-placeholder {
-  color: #efefef;
+  color: #C4C4C4;
 }
 .txt::-ms-input-placeholder { 
-  color: #efefef;
+  color: #C4C4C4;
 }
 .txt::-moz-placeholder { 
-  color: #efefef;
+  color: #C4C4C4;
 }
 .txt::placeholder {
-    color: #efefef
+    color: #C4C4C4
+}
+
+@keyframes wave  {
+    0% {
+        width: 0;
+        background-color: #C4C4C4;
+    }
+
+    100% {
+        width: 100%;
+        background-color: white;
+    }
+
 }
