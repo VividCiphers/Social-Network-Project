@@ -13,6 +13,10 @@
   margin-bottom: 50px;
 }
 
+.tile.tile--padding {
+  padding: .5rem 1.2rem;
+}
+
 @media (max-width: 600px) {
   .tile.tile--large {
     width: 100%;
@@ -20,6 +24,11 @@
   }
 
   .tile {
+      border: none;
+  }
+
+  .tile.tile--gutters {
+    margin-top: 0;
     border: none;
   }
 
