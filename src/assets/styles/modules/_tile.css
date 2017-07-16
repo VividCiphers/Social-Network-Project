@@ -1,0 +1,30 @@
+.tile { 
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tile.tile--large {
+    min-width: 600px;
+}
+
+.tile.tile--gutters {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .tile.tile--large {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .tile { 
+      border: none;
+  }
+
+  .tile.tile--gutters { 
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

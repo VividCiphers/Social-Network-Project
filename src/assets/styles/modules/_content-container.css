@@ -1,5 +1,15 @@
 .content-container {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  width: 600px;
+}
+
+.content-container--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .content-container { 
+    width: 100%;
+  }
+
 }

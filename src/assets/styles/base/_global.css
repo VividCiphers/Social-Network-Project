@@ -1,24 +1,19 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /* -------------------------------- Text -------------------------------- */
 
 body {
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font: 300 16px 'Lato', sans-serif;
   color: #212121;
   background-color: #f7f7f7;
+
 }
 
 /* ------------------------------- Headings ------------------------------- */
 
 h1, h2, h3 {
-  margin: 0;
-  padding: 0;
   font-weight: 300;
 }
 

@@ -1,0 +1,52 @@
+.image-detail{
+
+}
+
+.image-detail__header {
+    padding: 15px;
+}
+
+.image-detail__header__user-info {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.image-detail__header__user-info p {
+    margin: 0;
+    font-size: .9em;
+}
+
+.image-detail__header__user-info p:first-child {
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.image-detail__body__image {
+    width: 598px;
+    height: 600px;
+}
+
+.image-detail__body__comments {
+    height: 200px;
+    padding: 10px;
+}
+
+.image-detail__footer { 
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.image-detail__icons { 
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.image-detail__icons:first-child {
+    margin-right: 10px;
+}
+
+.date { 
+    font-weight: bold;
+    font-size: .75em;
+}
