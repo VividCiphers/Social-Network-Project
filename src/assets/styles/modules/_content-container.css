@@ -33,6 +33,11 @@
   width: 35px;
 }
 
+.content-container__profile-image--large {
+  width: 130px;
+  margin: 0 6rem 0 4rem;
+}
+
 .content-container__bold-text {
   font-weight: 700;
 }

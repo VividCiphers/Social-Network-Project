@@ -10,6 +10,7 @@ import { ImageDetailTileComponent } from './home-feed/image-detail-tile/image-de
 import { CommentComponent } from './home-feed/image-detail-tile/comment/comment.component';
 import { PersonViewComponent } from './person-view/person-view.component';
 import { PersonViewTileComponent } from './person-view/person-view-tile/person-view-tile.component';
+import { ProfileDetailTileComponent } from './shared/profile-detail-tile/profile-detail-tile.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PersonViewTileComponent } from './person-view/person-view-tile/person-v
     ImageDetailTileComponent,
     CommentComponent,
     PersonViewComponent,
-    PersonViewTileComponent
+    PersonViewTileComponent,
+    ProfileDetailTileComponent
   ],
   imports: [
     BrowserModule,

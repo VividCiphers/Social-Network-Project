@@ -3,12 +3,22 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   outline: 0;
-  padding: .5rem .8rem;
+  padding: .4rem .8rem;
   transition: all .25s;
+  display: inline-block;
+}
+
+.btn--wide {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+.btn--margin-right {
+  margin-right: .6rem;
 }
 
 .btn:hover {
-
+  background-color: #e6e6e6;
 }
 
 .btn--blue {
