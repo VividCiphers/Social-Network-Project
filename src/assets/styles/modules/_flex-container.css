@@ -9,3 +9,11 @@
 .flex-container--center-items {
   align-items: center;
 }
+
+.flex-container--margin-top {
+  margin-top: 2rem;
+}
+
+.flex-container--margin-bottom {
+  margin-bottom: 2rem;
+}

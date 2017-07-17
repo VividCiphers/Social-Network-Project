@@ -14,6 +14,34 @@
   padding: 15px;
 }
 
+.txt--margin-top {
+  margin-top: .8rem;
+}
+
+.txt--margin-bottom {
+  margin-bottom: .8rem;
+}
+
+.txt--margin-right {
+  margin-right: 1rem;
+}
+
+.txt--margin-right-large {
+  margin-right: 2rem;
+}
+
+.txt--large {
+  font-size: 1.8rem;
+}
+
+.txt--medium {
+  font-size: 1.4rem;
+}
+
+.txt--normal {
+  font-weight: 400;
+}
+
 .txt.txt--full {
   width: 100%;
 }
