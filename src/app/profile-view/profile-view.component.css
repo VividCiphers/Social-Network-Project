@@ -1,0 +1,11 @@
+.grid-cell {
+  height: 300px;
+}
+
+.grid-cell--three-col {
+  width: 29%;
+}
+
+.grid-cell--gutters {
+  margin: 2%;
+}
