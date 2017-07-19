@@ -11,6 +11,8 @@ import { CommentComponent } from './home-feed/image-detail-tile/comment/comment.
 import { PersonViewComponent } from './person-view/person-view.component';
 import { PersonViewTileComponent } from './person-view/person-view-tile/person-view-tile.component';
 import { ProfileDetailTileComponent } from './shared/profile-detail-tile/profile-detail-tile.component';
+import { ProfileViewComponent } from './profile-view/profile-view.component';
+import { ProfileViewGridItemComponent } from './profile-view/profile-view-grid-item/profile-view-grid-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ProfileDetailTileComponent } from './shared/profile-detail-tile/profile
     CommentComponent,
     PersonViewComponent,
     PersonViewTileComponent,
-    ProfileDetailTileComponent
+    ProfileDetailTileComponent,
+    ProfileViewComponent,
+    ProfileViewGridItemComponent
   ],
   imports: [
     BrowserModule,
