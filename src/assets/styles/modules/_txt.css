@@ -42,6 +42,17 @@
   font-weight: 400;
 }
 
+.txt--link {
+  color: #085795;
+  font-weight: 400;
+  border-bottom: 1px solid transparent;
+}
+
+.txt--link:hover {
+  color: #0c7cd6;
+  border-bottom: 1px solid #0c7cd6;
+}
+
 .txt.txt--full {
   width: 100%;
 }
