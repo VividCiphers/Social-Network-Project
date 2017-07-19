@@ -40,12 +40,15 @@
 
 .main-nav__icon {
   display: none;
-  transform: translateY(30%);
 }
 
 .main-nav__icon--visible-at-small {
   position: relative;
   display: inline-block;
+}
+
+.main-nav__icon--visible-at-small:hover {
+  cursor: pointer;
 }
 
 .main-nav ul {
@@ -61,7 +64,7 @@
 .main-nav__dropdown-content {
   display: none;
   position: absolute;
-  transform: translateX(-8rem);
+  transform: translate(-7rem, 6rem);
   background-color: #f9f9f9;
   min-width: 160px;
   overflow: auto;
