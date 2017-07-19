@@ -46,11 +46,13 @@
   color: #085795;
   font-weight: 400;
   border-bottom: 1px solid transparent;
+  padding-bottom: .2rem;
 }
 
 .txt--link:hover {
   color: #0c7cd6;
   border-bottom: 1px solid #0c7cd6;
+  padding-bottom: 0;
 }
 
 .txt.txt--full {

@@ -14,11 +14,12 @@ import { PersonViewTileComponent } from './person-view/person-view-tile/person-v
 import { ProfileDetailTileComponent } from './shared/profile-detail-tile/profile-detail-tile.component';
 import { ProfileViewComponent } from './profile-view/profile-view.component';
 import { ProfileViewGridItemComponent } from './profile-view/profile-view-grid-item/profile-view-grid-item.component';
+import { DiscoverComponent } from './discover/discover.component';
 
 const routes: Routes = [
   { path: '', component: HomeFeedComponent },
-  // { path: 'feed', component: HomeFeedComponent },
-  // { path: 'discover' },
+  { path: 'feed', component: HomeFeedComponent },
+  { path: 'discover', component: DiscoverComponent },
   { path: 'profile', component: ProfileViewComponent },
 ];
 
@@ -33,7 +34,8 @@ const routes: Routes = [
     PersonViewTileComponent,
     ProfileDetailTileComponent,
     ProfileViewComponent,
-    ProfileViewGridItemComponent
+    ProfileViewGridItemComponent,
+    DiscoverComponent
   ],
   imports: [
     BrowserModule,
