@@ -27,11 +27,11 @@
 }
 
 .txt--margin-right-large {
-  margin-right: 2rem;
+  margin-right: 1.2rem;
 }
 
 .txt--large {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .txt--medium {
@@ -78,6 +78,16 @@
 }
 .txt::placeholder {
   color: #C4C4C4
+}
+
+@media screen and (min-width: 530px) {
+  .txt--large {
+    font-size: 1.8rem;
+  }
+
+  .txt--margin-right-large {
+    margin-right: 2rem;
+  }
 }
 
 @keyframes wave  {
