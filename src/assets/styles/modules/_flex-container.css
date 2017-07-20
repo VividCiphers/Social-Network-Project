@@ -2,6 +2,14 @@
   display: flex;
 }
 
+.flex-container--wrap{ 
+  flex-wrap: wrap;
+}
+
+.flex-container--full {
+  width: 100%;
+}
+
 .flex-container--space-between {
   justify-content: space-between;
 }
@@ -16,4 +24,8 @@
 
 .flex-container--margin-bottom {
   margin-bottom: 2rem;
+}
+
+.flex-container--justify-center { 
+  justify-content: center;
 }

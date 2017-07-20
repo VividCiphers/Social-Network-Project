@@ -1,0 +1,29 @@
+.grid-cell__grid-image { 
+  height: 300px;
+  width: 300px;
+}
+
+.grid-cell__grid-image:hover { 
+
+}
+
+.grid-cell__grid-image__overlay {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  height: 300px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  color: white;
+  font-weight: 900;
+  transition: opacity .25s;
+}
+
+.grid-cell__grid-image__overlay p:first-child {
+  margin-right: 30px;
+}
+
+.grid-cell__grid-image__overlay:hover{
+  opacity: 1;
+}

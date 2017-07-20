@@ -2,6 +2,14 @@
   width: 600px;
 }
 
+.content-container--large {
+  width: 1000px;
+}
+
+.content-container--full { 
+  width: 100%;
+}
+
 .content-container__tile {
   background-color: #fff;
   border: 1px solid #ddd;
