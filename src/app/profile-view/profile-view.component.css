@@ -1,5 +1,6 @@
 .grid-cell {
   height: 300px;
+  position: relative;
 }
 
 .grid-cell--three-col {
@@ -7,5 +8,11 @@
 }
 
 .grid-cell--gutters {
-  margin: 2%;
+  margin: 20px;
+}
+
+.load-more-button { 
+  display: block; 
+  margin: 0 auto;
+  width: 175px;
 }
