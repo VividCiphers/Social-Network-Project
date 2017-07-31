@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.flex-container--wrap {
+  flex-wrap: wrap;
+}
+
 .flex-container--margin-top {
   margin-top: 2rem;
 }

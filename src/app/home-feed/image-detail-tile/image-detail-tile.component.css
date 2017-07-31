@@ -22,8 +22,7 @@
 }
 
 .image-detail__body__image {
-  width: 598px;
-  height: 600px;
+  width: 100%;
 }
 
 .image-detail__body__comments {

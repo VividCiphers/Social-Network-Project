@@ -1,19 +1,47 @@
 <nav class="main-nav glow">
   <ul class="wrapper">
     <div class="main-nav--large">
-      <li><i class="fa fa-camera main-nav--padding-r" aria-hidden="true"></i></li>
-      <li class="logo-font main-nav--left-border main-nav--padding-l">Social Media</li>
+      <li>
+        <div class="main-nav--padding-r">
+          <a routerLink="feed">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+          </a>
+        </div>
+      </li>
+      <li class="logo-font main-nav--left-border main-nav--padding-l">
+        <a class="main-nav--invisible-at-small" routerLink="feed">Social Media</a>
+      </li>
     </div>
     <li><form class="main-nav__input"><input type="text" name="search" placeholder="Search"></form></li>
-    <div>
-      <li><i class="fa fa-compass main-nav__icon main-nav--padding-r" aria-hidden="true"></i></li>
-      <li><i class="fa fa-heart-o main-nav__icon main-nav--padding-r main-nav--padding-l" aria-hidden="true"></i></li>
-      <li><i class="fa fa-user-o main-nav__icon main-nav--padding-l" aria-hidden="true"></i></li>
-      <li><i class="fa fa-bars main-nav__icon--visible-at-small" (click)="toggleDropdown()" aria-hidden="true"></i></li>
+    <div class="flex-container flex-container--center-items">
+      <li>
+        <div class="main-nav--padding-r">
+          <a routerLink="discover">
+            <i class="fa fa-compass main-nav__icon" aria-hidden="true"></i>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="main-nav--padding-r main-nav--padding-l">
+          <a href="#">
+            <i class="fa fa-heart-o main-nav__icon" aria-hidden="true"></i>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="main-nav--padding-l">
+          <a routerLink="profile">
+            <i class="fa fa-user-o main-nav__icon" aria-hidden="true"></i>
+          </a>
+        </div>
+      </li>
+      <li>
+        <i class="fa fa-bars main-nav__icon--visible-at-small" (click)="toggleDropdown()" aria-hidden="true"></i>
+      </li>
       <div id="main-nav__dropdown" class="main-nav__dropdown-content shadow" #mainNavDropDown>
-        <a href="#">Compass</a>
-        <a href="#">Heart</a>
-        <a href="#">User</a>
+        <a routerLink="discover">Discover</a>
+        <a href="#">Activity</a>
+        <a routerLink="profile">Profile</a>
       </div>
     </div>
   </ul>

@@ -27,11 +27,11 @@
 }
 
 .txt--margin-right-large {
-  margin-right: 2rem;
+  margin-right: 1.2rem;
 }
 
 .txt--large {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .txt--medium {
@@ -40,6 +40,19 @@
 
 .txt--normal {
   font-weight: 400;
+}
+
+.txt--link {
+  color: #085795;
+  font-weight: 400;
+  border-bottom: 1px solid transparent;
+  padding-bottom: .2rem;
+}
+
+.txt--link:hover {
+  color: #0c7cd6;
+  border-bottom: 1px solid #0c7cd6;
+  padding-bottom: 0;
 }
 
 .txt.txt--full {
@@ -65,6 +78,16 @@
 }
 .txt::placeholder {
   color: #C4C4C4
+}
+
+@media screen and (min-width: 530px) {
+  .txt--large {
+    font-size: 1.8rem;
+  }
+
+  .txt--margin-right-large {
+    margin-right: 2rem;
+  }
 }
 
 @keyframes wave  {
