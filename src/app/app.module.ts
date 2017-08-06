@@ -15,12 +15,14 @@ import { ProfileDetailTileComponent } from './shared/profile-detail-tile/profile
 import { ProfileViewComponent } from './profile-view/profile-view.component';
 import { ProfileViewGridItemComponent } from './profile-view/profile-view-grid-item/profile-view-grid-item.component';
 import { DiscoverComponent } from './discover/discover.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 const routes: Routes = [
   { path: '', component: HomeFeedComponent },
   { path: 'feed', component: HomeFeedComponent },
   { path: 'discover', component: DiscoverComponent },
   { path: 'profile', component: ProfileViewComponent },
+  { path: 'signup', component: SignUpComponent },
 ];
 
 @NgModule({
@@ -35,7 +37,8 @@ const routes: Routes = [
     ProfileDetailTileComponent,
     ProfileViewComponent,
     ProfileViewGridItemComponent,
-    DiscoverComponent
+    DiscoverComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
