@@ -1,0 +1,20 @@
+.login {
+  text-align: center;
+}
+
+.login .txt {
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+.login p {
+  width: 200px;
+}
+
+.logo--full {
+  width: 100%;
+}
+
+.tile.tile--padding {
+  padding: 1.2rem;
+}

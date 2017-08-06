@@ -16,6 +16,14 @@
   margin-bottom: 50px;
 }
 
+.tile.tile--margin-top {
+  margin-top: 50px;
+}
+
+.tile.tile--small-margin-top {
+  margin-top: 20px;
+}
+
 .tile.tile--padding {
   padding: .5rem 1.2rem;
 }
@@ -32,11 +40,16 @@
 
   .tile.tile--gutters {
     margin-top: 0;
+    margin-bottom: 0;
     border: none;
   }
 
-  .tile.tile--gutters {
+
+  .tile.tile--margin-top {
     margin-top: 0;
-    margin-bottom: 0;
+  }
+
+  .tile.tile--small-margin-top {
+    margin-top: 0;
   }
 }
