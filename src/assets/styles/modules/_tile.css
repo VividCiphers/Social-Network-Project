@@ -4,6 +4,9 @@
   border-radius: 4px;
 }
 
+.tile.tile--small {
+  min-width: 300px;
+}
 .tile.tile--large {
   min-width: 600px;
 }

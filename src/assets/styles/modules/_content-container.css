@@ -2,6 +2,10 @@
   width: 600px;
 }
 
+.content-container--small {
+  width: 400px;
+}
+
 .content-container--large {
   width: 1000px;
 }

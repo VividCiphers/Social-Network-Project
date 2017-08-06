@@ -6,12 +6,20 @@
   border: none;
 }
 
+.txt.txt--block{
+  display: block;
+}
+
 .txt.txt--top-border {
   border-top: 1px solid #efefef;
 }
 
 .txt.txt--large-padding {
   padding: 15px;
+}
+
+.txt.txt--small-padding {
+  padding: 7px;
 }
 
 .txt--margin-top {
@@ -59,7 +67,7 @@
   width: 100%;
 }
 
-.txt:focus  {
+.txt.txt--wave:focus  {
   outline: none;
   animation: wave .25s;
 }
