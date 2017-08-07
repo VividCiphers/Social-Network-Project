@@ -8,14 +8,18 @@ https://github.com/VividCiphers/Social-Network-Project/tree/angular-develop
 
 https://github.com/VividCiphers/Social-Network-Project/tree/project-setup
 
+https://github.com/VividCiphers/Social-Network-Project/tree/angular-login
+
+https://github.com/VividCiphers/Social-Network-Project/tree/sign-up
+
+https://github.com/VividCiphers/Social-Network-Project/tree/profile-view
+
 Vue based :
 
-https://github.com/VividCiphers/Social-Network-Project/tree/Social-Network---Vue.js-Version
+https://github.com/VividCiphers/vue-social-network
 
 React based :
 
-https://github.com/VividCiphers/Social-Network-Project/tree/Social-Network---React-Version
+https://github.com/VividCiphers/Social-Network-Project-React-Version
 
-Vanilla Version:
 
-https://github.com/VividCiphers/Social-Network-Project/tree/Social-Network---Vanilla-Version
