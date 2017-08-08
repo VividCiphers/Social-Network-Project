@@ -16,6 +16,7 @@ import { ProfileViewComponent } from './profile-view/profile-view.component';
 import { ProfileViewGridItemComponent } from './profile-view/profile-view-grid-item/profile-view-grid-item.component';
 import { DiscoverComponent } from './discover/discover.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { SettingsViewComponent } from './settings-view/settings-view.component';
 
 const routes: Routes = [
   { path: '', component: HomeFeedComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'discover', component: DiscoverComponent },
   { path: 'profile', component: ProfileViewComponent },
   { path: 'signup', component: SignUpComponent },
+  { path: 'settings', component: SettingsViewComponent },
 ];
 
 @NgModule({
@@ -38,7 +40,8 @@ const routes: Routes = [
     ProfileViewComponent,
     ProfileViewGridItemComponent,
     DiscoverComponent,
-    SignUpComponent
+    SignUpComponent,
+    SettingsViewComponent
   ],
   imports: [
     BrowserModule,
